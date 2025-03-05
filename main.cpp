@@ -97,3 +97,4 @@ int main()
 {
 
 }
+//aj aj aj upubliczniasz nie dokończony kod not Śigma 
