@@ -89,11 +89,17 @@ public:
 
     void show()
     {
-        return 
+        Employee::show();
+        cout << "Bonus: " << bonus << ", Liczba pracowników: " << numOfSubordinates << '\n';
+    }
+
+    float calculate(float salary)
+    {
+        return getHourlyRate() * salary + bonus;
     }
 };
 
 int main()
 {
-
+    Manager moi("Adam", "Marzec", 8, 1000, 16);
 }
